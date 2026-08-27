@@ -1,0 +1,15 @@
+/**
+ * Woo PowerTranz Admin Styles
+ *
+ * Styling for the WooCommerce payment gateway settings page.
+ *
+ * @package Woo_PowerTranz
+ */
+
+.woo-powertranz-admin-wrapper {
+	margin-top: 10px;
+}
+
+.woo-powertranz-settings {
+	min-width: 0;
+}

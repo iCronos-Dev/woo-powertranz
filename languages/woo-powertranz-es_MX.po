@@ -1,0 +1,357 @@
+# Spanish (Mexico) translation for Woo PowerTranz
+# Copyright (C) 2024 iCronos
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo PowerTranz 1.0.0\n"
+"Report-Msgid-Bugs-To: https://icronos.com\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01 00:00:00+00:00\n"
+"Last-Translator: iCronos <info@icronos.com>\n"
+"Language-Team: Spanish (Mexico) <es_MX@icronos.com>\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: iCronos\n"
+
+#: woo-powertranz.php
+msgid "Woo PowerTranz requires %s to be installed and active."
+msgstr "Woo PowerTranz requiere que %s esté instalado y activo."
+
+#: woo-powertranz.php
+msgid "Settings"
+msgstr "Configuración"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Woo PowerTranz"
+msgstr "Woo PowerTranz"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Accept credit and debit card payments through PowerTranz payment gateway."
+msgstr "Acepta pagos con tarjeta de crédito y débito a través de la pasarela de pago PowerTranz."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Enable Woo PowerTranz Payment Gateway"
+msgstr "Activar pasarela de pago Woo PowerTranz"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Enable this to accept payments through PowerTranz."
+msgstr "Activa esto para aceptar pagos a través de PowerTranz."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment method title that customers see during checkout."
+msgstr "Título del método de pago que los clientes ven durante el proceso de compra."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Credit/Debit Card"
+msgstr "Tarjeta de Crédito/Débito"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment method description that customers see during checkout."
+msgstr "Descripción del método de pago que los clientes ven durante el proceso de compra."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Pay securely using your credit or debit card."
+msgstr "Paga de forma segura con tu tarjeta de crédito o débito."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "API Credentials"
+msgstr "Credenciales de API"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Enter your PowerTranz API credentials. You can obtain these from your PowerTranz merchant account."
+msgstr "Ingresa tus credenciales de la API de PowerTranz. Puedes obtenerlas desde tu cuenta de comerciante de PowerTranz."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Merchant ID"
+msgstr "ID de Comerciante"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Your PowerTranz Merchant ID."
+msgstr "Tu ID de comerciante de PowerTranz."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "API Password"
+msgstr "Contraseña de API"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Your PowerTranz API Password."
+msgstr "Tu contraseña de API de PowerTranz."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Gateway Key"
+msgstr "Clave de Pasarela"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Your PowerTranz Gateway Key."
+msgstr "Tu clave de pasarela de PowerTranz."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Test Mode"
+msgstr "Modo de Prueba"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Enable Test Mode"
+msgstr "Activar Modo de Prueba"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Enable test mode to use the PowerTranz sandbox environment for testing."
+msgstr "Activa el modo de prueba para usar el entorno sandbox de PowerTranz."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "(TEST MODE - No real charges will be made)"
+msgstr "(MODO DE PRUEBA - No se realizarán cargos reales)"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Cardholder Name"
+msgstr "Nombre del Titular"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Name as it appears on card"
+msgstr "Nombre como aparece en la tarjeta"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Card Number"
+msgstr "Número de Tarjeta"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Expiration (MM/YY)"
+msgstr "Vencimiento (MM/AA)"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Security Code (CVV)"
+msgstr "Código de Seguridad (CVV)"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Please enter the cardholder name."
+msgstr "Por favor ingresa el nombre del titular de la tarjeta."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Cardholder name is too short."
+msgstr "El nombre del titular es muy corto."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Please enter your card number."
+msgstr "Por favor ingresa el número de tu tarjeta."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Please enter a valid card number."
+msgstr "Por favor ingresa un número de tarjeta válido."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Please enter your card expiration date."
+msgstr "Por favor ingresa la fecha de vencimiento de tu tarjeta."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Please enter a valid expiration date (MM/YY)."
+msgstr "Por favor ingresa una fecha de vencimiento válida (MM/AA)."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Your card has expired. Please use a different card."
+msgstr "Tu tarjeta ha expirado. Por favor usa una tarjeta diferente."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Please enter your card security code (CVV)."
+msgstr "Por favor ingresa el código de seguridad de tu tarjeta (CVV)."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Please enter a valid security code (3 or 4 digits)."
+msgstr "Por favor ingresa un código de seguridad válido (3 o 4 dígitos)."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Order not found. Please try again."
+msgstr "Pedido no encontrado. Por favor intenta de nuevo."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Card information is missing. Please try again."
+msgstr "Falta información de la tarjeta. Por favor intenta de nuevo."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Woo PowerTranz payment authorized. Auth Code: %1$s | Transaction ID: %2$s"
+msgstr "Pago Woo PowerTranz autorizado. Código de Auth: %1$s | ID de Transacción: %2$s"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment authorized. Awaiting capture."
+msgstr "Pago autorizado. Esperando captura."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Woo PowerTranz payment declined. Code: %1$s | Reason: %2$s"
+msgstr "Pago Woo PowerTranz rechazado. Código: %1$s | Motivo: %2$s"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment declined by card issuer."
+msgstr "Pago rechazado por el emisor de la tarjeta."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Your payment was declined. Please try a different card."
+msgstr "Tu pago fue rechazado. Por favor intenta con una tarjeta diferente."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Woo PowerTranz payment error. Code: %1$s | Message: %2$s"
+msgstr "Error de pago Woo PowerTranz. Código: %1$s | Mensaje: %2$s"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment processing error."
+msgstr "Error al procesar el pago."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "An error occurred while processing your payment. Please try again or contact support."
+msgstr "Ocurrió un error al procesar tu pago. Por favor intenta de nuevo o contacta a soporte."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Return to payments"
+msgstr "Volver a pagos"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Capture Woo PowerTranz Payment"
+msgstr "Capturar Pago Woo PowerTranz"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment captured successfully. Capture ID: %s"
+msgstr "Pago capturado exitosamente. ID de Captura: %s"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment capture failed: %s"
+msgstr "Error al capturar el pago: %s"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "No transaction ID found. Cannot capture payment."
+msgstr "No se encontró ID de transacción. No se puede capturar el pago."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment has already been captured."
+msgstr "El pago ya ha sido capturado."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment captured successfully."
+msgstr "Pago capturado exitosamente."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Capture failed. Please try again or contact support."
+msgstr "Error en la captura. Por favor intenta de nuevo o contacta a soporte."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "No transaction ID found. Cannot process refund."
+msgstr "No se encontró ID de transacción. No se puede procesar el reembolso."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Refund amount must be greater than zero."
+msgstr "El monto del reembolso debe ser mayor a cero."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Refunded %1$s via Woo PowerTranz. Refund ID: %2$s. Reason: %3$s"
+msgstr "Reembolsado %1$s vía Woo PowerTranz. ID de Reembolso: %2$s. Motivo: %3$s"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "No reason provided"
+msgstr "Sin motivo especificado"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Refund failed. Please try again."
+msgstr "Error en el reembolso. Por favor intenta de nuevo."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "No transaction ID found. Cannot void authorization."
+msgstr "No se encontró ID de transacción. No se puede anular la autorización."
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Authorization voided. Void ID: %s"
+msgstr "Autorización anulada. ID de Anulación: %s"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Void failed. Please try again."
+msgstr "Error en la anulación. Por favor intenta de nuevo."
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Woo PowerTranz Payment"
+msgstr "Pago Woo PowerTranz"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Order not found."
+msgstr "Pedido no encontrado."
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "TEST MODE TRANSACTION"
+msgstr "TRANSACCIÓN EN MODO DE PRUEBA"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Status:"
+msgstr "Estado:"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Transaction ID:"
+msgstr "ID de Transacción:"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Authorization Code:"
+msgstr "Código de Autorización:"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Response Code:"
+msgstr "Código de Respuesta:"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Decline Details:"
+msgstr "Detalles del Rechazo:"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Code: %s"
+msgstr "Código: %s"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Error Details:"
+msgstr "Detalles del Error:"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "No transaction data available."
+msgstr "No hay datos de transacción disponibles."
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Captured"
+msgstr "Capturado"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Authorized"
+msgstr "Autorizado"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Declined"
+msgstr "Rechazado"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Error"
+msgstr "Error"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Voided"
+msgstr "Anulado"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Pending"
+msgstr "Pendiente"
+
+#: includes/class-woo-powertranz-admin-order.php
+msgid "Payment"
+msgstr "Pago"
+
+#: includes/class-wc-gateway-woo-powertranz.php
+msgid "Payment capture attempted by unauthorized user."
+msgstr "Intento de captura de pago por usuario no autorizado."
