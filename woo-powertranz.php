@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Woo PowerTranz
- * Plugin URI: https://icronos.com
- * Description: WooCommerce payment gateway integration for PowerTranz payment processor.
+ * Plugin URI: https://icronos.dev
+ * Description: PowerTranz payment gateway for WooCommerce.
  * Version: 1.0.0
  * Author: iCronos
- * Author URI: https://icronos.com
+ * Author URI: https://icronos.dev
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: woo-powertranz

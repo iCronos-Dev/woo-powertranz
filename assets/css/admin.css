@@ -7,9 +7,78 @@
  */
 
 .woo-powertranz-admin-wrapper {
+	display: flex;
+	gap: 30px;
+	align-items: flex-start;
 	margin-top: 10px;
 }
 
 .woo-powertranz-settings {
+	flex: 1;
 	min-width: 0;
+}
+
+.woo-powertranz-branding {
+	flex-shrink: 0;
+	position: sticky;
+	top: 32px;
+}
+
+.icronos-brand-box {
+	display: block;
+	background: #1a1a2e;
+	padding: 20px 28px;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+	transition: box-shadow 0.2s ease;
+}
+
+.icronos-brand-box:hover {
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.icronos-brand-box .powered-by {
+	display: block;
+	color: #888;
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.icronos-brand-box .brand-text {
+	display: block;
+	color: #e0e0e0;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+	.woo-powertranz-admin-wrapper {
+		flex-direction: column;
+	}
+
+	.woo-powertranz-branding {
+		position: static;
+		order: -1;
+		align-self: flex-end;
+	}
+
+	.icronos-brand-box {
+		padding: 15px 20px;
+	}
+
+	.icronos-brand-box .powered-by {
+		margin-bottom: 6px;
+	}
+
+	.icronos-brand-box .brand-text {
+		font-size: 17px;
+	}
 }

@@ -1295,6 +1295,12 @@ class WC_Gateway_Woo_PowerTranz extends WC_Payment_Gateway {
 					<?php $this->generate_settings_html(); ?>
 				</table>
 			</div>
+			<div class="woo-powertranz-branding">
+				<a href="https://icronos.dev" target="_blank" rel="noopener noreferrer" class="icronos-brand-box">
+					<span class="powered-by"><?php esc_html_e( 'Powered by', 'woo-powertranz' ); ?></span>
+					<span class="brand-text">iCronos</span>
+				</a>
+			</div>
 		</div>
 		<?php
 	}
